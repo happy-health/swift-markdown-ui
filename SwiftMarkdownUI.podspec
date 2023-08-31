@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.swift_versions = ['5.0']
   s.frameworks = ['UIKit']
-  s.source_files = 'Sources/**/*.{h,m,mm,c,cpp,swift,xib}'
+  s.source_files = 'Sources/MarkdownUI/**/*.{h,m,mm,c,cpp,swift,xib}'
 end
