@@ -9,6 +9,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.swift_versions = ['5.0']
   s.frameworks = ['UIKit']
-  s.dependency 'cmark-gfm', '2.1.0-hpy'
   s.source_files = 'Sources/MarkdownUI/**/*.{h,m,mm,c,cpp,swift,xib}'
 end
